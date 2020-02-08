@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="node_modules/obs-websocket-js/dist/obs-websocket.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="connect">
+            <h1>Connect</h1>
+            <input id="address" placeholder="Address">
+            <!-- <input id="password" placeholder="Password"> -->
+            <button id="address_button">Connect</button>
+        </div>
+        <div class="scenes" id="scenes">
+            <h1>Cenas</h1>
+            <div id="scene_list"></div>
+        </div>
+
+        <div class="sources">
+            <div id="source_list">
+
+            </div>
+        </div>
+        <div class="back" id="back">
+            <button>Voltar</button>
+        </div>
+
+        <div class="transmission" id="stream">
+
+
+
+        </div>
+    </div>
+
+
+    <script src="./jquery.js"></script>
+    <script src="obs.js"></script>
+</body>
+
+</html>

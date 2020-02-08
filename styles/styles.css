@@ -1,0 +1,137 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        background: #ccc;
+    }
+    
+    .container {
+        max-width: 1280px;
+        padding: 0 2%;
+        margin: 0 auto;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .connect {
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .connect h1 {
+        font-size: 30px;
+    }
+    
+    .connect input {
+        width: 100%;
+        margin-top: 5px;
+        height: 50px;
+        border-radius: 10px;
+    }
+    
+    .connect button {
+        margin-top: 20px;
+        width: 100%;
+        height: 30px;
+        border-radius: 10px;
+        background-color: green;
+        color: white;
+        font-size: 15px;
+    }
+    
+    .scenes {
+        display: none;
+    }
+    
+    .scenes h1 {
+        text-align: center;
+        font-size: 30px
+    }
+    
+    .btn-scenes {
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+        background-color: green;
+    }
+    
+    .btn-scenes:hover {
+        background-color: rgba(15, 109, 0, 0.639);
+    }
+    /* .btn-sources {
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+    } */
+    
+    .btn-ativado {
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+    }
+    
+    .btn-desativado {
+        height: 200px;
+        width: 200px;
+        border-radius: 20px;
+    }
+    /* .btn-sources:hover {
+        background-color: rgba(15, 109, 0, 0.639);
+    } */
+    
+    .sources {
+        display: none;
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    #scene_list {
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .back {
+        display: none;
+    }
+    
+    .back button {
+        width: 100px;
+        height: 60px;
+        border-radius: 20px;
+        margin-top: 20px;
+        background-color: green;
+        color: white;
+        font-size: 15px;
+    }
+    
+    .transmission {
+        display: none;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .transmission-off {
+        height: 60px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: red;
+    }
